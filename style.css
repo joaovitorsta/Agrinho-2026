@@ -6,26 +6,26 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #f5f5f5;
+  background-color: #ffffff;
   color: #333;
   display: flex;
   flex-direction: column;
-  min-height: 100vh; /* Garante que o body ocupe toda a altura da tela */
+  min-height: 100vh;
 }
 
 h1, h2 {
-  color: #006400;
+  color: #333333;
 }
 
 .container {
   width: 80%;
   margin: 0 auto;
-  flex-grow: 1; /* Faz com que a container ocupe o espaço restante */
+  flex-grow: 1;
 }
 
 header {
-  background-color: #4caf50;
-  color: white;
+  background-color: #ffffff;
+  color: #333333;
   padding: 40px 0;
   text-align: center;
 }
@@ -33,6 +33,7 @@ header {
 header h1 {
   font-size: 3rem;
   margin-bottom: 10px;
+  color: #333333;
 }
 
 header p {
@@ -40,14 +41,14 @@ header p {
 }
 
 .intro {
-  background-color: #fff;
+  background-color: #ffffff;
   padding: 40px 0;
   text-align: center;
 }
 
 .intro h2 {
   font-size: 2rem;
-  color: #006400;
+  color: #333333;
   margin-bottom: 20px;
 }
 
@@ -59,48 +60,46 @@ header p {
 
 .gallery {
   display: flex;
-  justify-content: center; /* Alinha horizontalmente */
-  align-items: center; /* Alinha verticalmente */
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
   text-align: center;
   margin: 50px auto;
-  background-color: #9df578;
+  background-color: #ffffff;
   width: 100%;
-  border-radius: 8px; /* Opicional, só para um visual mais agradável */
+  border-radius: 8px;
 }
 
-.gallery p{
-
+.gallery p {
   padding: 10px;
   font-size: 1.5rem;
   font-family: Quicksand, sans-serif;
-  
 }
 
 .gallery h1 {
   font-size: 2rem;
   margin-bottom: 20px;
+  color: #333333;
 }
 
 .gallery-container1,
 .gallery-container2 {
   display: flex;
-  justify-content: center; /* Centraliza horizontalmente */
-  align-items: center; /* Centraliza verticalmente */
-  flex-wrap: wrap; /* Permite quebra de linha caso os elementos não caibam na mesma linha */
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
   text-align: center;
   width: 100%;
   margin: 20px;
   margin-top: 20px;
-
 }
 
 footer {
-  background-color: #4caf50;
+  background-color: #ff6600;
   color: white;
   padding: 20px 0;
   text-align: center;
-  margin-top: auto; /* Garante que o footer fique sempre na parte inferior */
+  margin-top: auto;
 }
 
 footer p {
