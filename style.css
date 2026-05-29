@@ -7,14 +7,14 @@
 body {
   font-family: Arial, sans-serif;
   background-color: #ffffff;
-  color: #333;
+  color: #111111;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
 }
 
 h1, h2 {
-  color: #333333;
+  color: #ff8000;
 }
 
 .container {
@@ -24,16 +24,16 @@ h1, h2 {
 }
 
 header {
-  background-color: #ffffff;
-  color: #333333;
-  padding: 40px 0;
+  background-color: #ff8000;
+  color: #ffffff;
+  padding: 50px 0;
   text-align: center;
 }
 
 header h1 {
   font-size: 3rem;
   margin-bottom: 10px;
-  color: #333333;
+  color: #ffffff;
 }
 
 header p {
@@ -42,13 +42,13 @@ header p {
 
 .intro {
   background-color: #ffffff;
-  padding: 40px 0;
+  padding: 50px 0;
   text-align: center;
 }
 
 .intro h2 {
-  font-size: 2rem;
-  color: #333333;
+  font-size: 2.2rem;
+  color: #ff8000;
   margin-bottom: 20px;
 }
 
@@ -56,6 +56,7 @@ header p {
   font-size: 1.6rem;
   max-width: 800px;
   margin: 0 auto;
+  line-height: 1.6;
 }
 
 .gallery {
@@ -64,22 +65,23 @@ header p {
   align-items: center;
   flex-direction: column;
   text-align: center;
-  margin: 50px auto;
+  padding: 40px 0;
   background-color: #ffffff;
   width: 100%;
-  border-radius: 8px;
 }
 
 .gallery p {
-  padding: 10px;
+  padding: 12px;
   font-size: 1.5rem;
   font-family: Quicksand, sans-serif;
+  line-height: 1.5;
 }
 
 .gallery h1 {
-  font-size: 2rem;
+  font-size: 2.2rem;
+  margin-top: 30px;
   margin-bottom: 20px;
-  color: #333333;
+  color: #ff8000;
 }
 
 .gallery-container1,
@@ -89,15 +91,16 @@ header p {
   align-items: center;
   flex-wrap: wrap;
   text-align: center;
-  width: 100%;
-  margin: 20px;
-  margin-top: 20px;
+  width: 80%;
+  margin: 10px auto 30px auto;
+  border-left: 4px solid #ff8000;
+  padding-left: 20px;
 }
 
 footer {
-  background-color: #ff6600;
-  color: white;
-  padding: 20px 0;
+  background-color: #ff8000;
+  color: #ffffff;
+  padding: 25px 0;
   text-align: center;
   margin-top: auto;
 }
